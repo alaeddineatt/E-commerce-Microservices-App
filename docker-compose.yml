@@ -2,7 +2,6 @@
 # Don't Forget Set Environment Variables Before Run This yml file
 # APP_ENV=development || production
 # windows >> set APP_ENV=development
-version: '3'
 
 services:
   nginx:

@@ -6,7 +6,7 @@ WORKDIR /var/www/boilerplate
 
 COPY servers/payment/package.json .
 
-RUN npm install --only=prod
+RUN npm install 
 
 RUN npm install -g pm2 ts-node
 
